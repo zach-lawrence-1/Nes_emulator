@@ -1,6 +1,9 @@
 # Nes_emulator
-## About the project
+## About The Project
 I have always enjoyed classic video games on the NES and SNES consoles since I was a kid, playing games such as Mike Tysons Punch out, Super Mario Bros, Super Mario World, and more. I have seen some emulators online and wanted to make one for myself for a while now. I decided now is the time and will try my best to make an emulator from scratch in C++.
+### Implementation Details
+For the bus that will connect all the separate components in the emulator, I have decided for now to use the singleton approach. This is because I only need one instance
+of the bus class, and I need to be able to use it across all classes in the project. Depending on future implementations of other classes this may need to change.
 ## How To Run
 ### Downloading The Code
 Download the code and make file as follows
