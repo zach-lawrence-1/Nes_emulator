@@ -5,6 +5,7 @@
 class bus
 {
     private:
+        //store ram here for reading from and writing to
 
     public:
 
